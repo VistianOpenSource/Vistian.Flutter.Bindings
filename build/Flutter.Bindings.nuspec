@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Flutter.Bindings</id>
-    <version>0.0.43</version>
+    <version>0.0.44</version>
     <authors>Vistian</authors>
     <owners>Vistian</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Experimental Xamarin bindings for Flutter 0.9.4 for Android</description>
-    <projectUrl>http://www.github.com</projectUrl>
+    <projectUrl>https://github.com/VistianOpenSource/Vistian.Flutter.Bindings</projectUrl>
     <releaseNotes>Initial cut, read the instructions on github very carefully on purpose, current limitations, how to install, how to use.</releaseNotes>
     <tags>Xamarin Android Flutter</tags>
     <dependencies >

@@ -26,6 +26,8 @@ An experimental release of code allowing for Flutter solutions to be hosted with
 
 ## Installation
 
+Please follow the installation instructions **very** carefully. **Just installing the nuget package is currently insufficient to get a working environment**.
+
 ### Android
 
 1. Install the package Vistian.Flutter.Bindings available from nuget.
