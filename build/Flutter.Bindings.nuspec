@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Flutter.Bindings</id>
+    <version>0.0.43</version>
+    <authors>Vistian</authors>
+    <owners>Vistian</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Experimental Xamarin bindings for Flutter 0.9.4 for Android</description>
+    <projectUrl>http://www.github.com</projectUrl>
+    <releaseNotes>Initial cut, read the instructions on github very carefully on purpose, current limitations, how to install, how to use.</releaseNotes>
+    <tags>Xamarin Android Flutter</tags>
+    <dependencies >
+         <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1"/>
+    </dependencies>
+    <frameworkAssemblies>
+     <frameworkAssembly assemblyName="Mono.Android.Export" />
+    </frameworkAssemblies>
+  </metadata>
+    <files>
+       <file src="..\Flutter.Bindings.Extensions\bin\debug\Flutter.Bindings.dll" target="lib\monoandroid81" />
+       <file src="..\Flutter.Bindings.Extensions\bin\debug\Flutter.Bindings.Extensions.dll" target="lib\monoandroid81" />
+    </files>
+</package>
